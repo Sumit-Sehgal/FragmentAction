@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_nav.xml"
+    app:startDestination="@id/navHostFirstFragment">
+
+
+    <fragment
+        android:id="@+id/navHostFirstFragment"
+        android:name="com.example.fragmentaction.NavHostFirstFragment"
+        android:label="NavHostFirstFragment" >
+        <action
+            android:id="@+id/action_navHostFirstFragment_to_navHostSecondFragment"
+            app:destination="@id/navHostSecondFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/navHostSecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navHostSecondFragment"
+        android:name="com.example.fragmentaction.NavHostSecondFragment"
+        android:label="NavHostSecondFragment" />
+</navigation>
