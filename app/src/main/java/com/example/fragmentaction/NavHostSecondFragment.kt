@@ -29,6 +29,7 @@ class NavHostSecondFragment : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
+        navact = activity as NavHostActivity
         Toast.makeText(navact,"onattach",Toast.LENGTH_LONG)
     }
 
