@@ -13,5 +13,10 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/activity_nav"
         android:name="androidx.navigation.fragment.NavHostFragment"/>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@android:"
+        />
 
 </LinearLayout>

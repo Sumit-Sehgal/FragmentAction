@@ -19,4 +19,6 @@
         android:id="@+id/navHostSecondFragment"
         android:name="com.example.fragmentaction.NavHostSecondFragment"
         android:label="NavHostSecondFragment" />
+
+
 </navigation>
